@@ -247,6 +247,10 @@ background-color: var(--noticolhover);
   transform: translateX(26px);
 }
 
+.nav .profile .account .theme-switch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
 .nav .profile .account .theme-switch .theme-icon {
   display: flex;
   justify-content: center;
