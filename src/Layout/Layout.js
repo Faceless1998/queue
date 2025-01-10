@@ -3,7 +3,7 @@ import { CiSearch, CiBellOn } from "react-icons/ci";
 import IMG1 from "./../assets/472784848_122093141168727914_4350209293830969542_n.jpg";
 import { FaSun, FaMoon } from "react-icons/fa"; // Importing Sun and Moon icons
 
-export const Layout = ({ toggleTheme, isDarkMode }) => {
+export const Layout = ({ toggleTheme, isDarkMode, toggleNav  }) => {
   return (
     <div className="nav">
       <div className="name">Foxstocks</div>
@@ -41,6 +41,13 @@ export const Layout = ({ toggleTheme, isDarkMode }) => {
               )}
             </div>
           </div>
+        </div>
+      </div>
+      <div className="mobile">
+        <div className="burger-menu" onClick={toggleNav}>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
       </div>
     </div>

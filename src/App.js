@@ -10,6 +10,7 @@ import { Navbar } from "./Layout/Navbar";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isNavVisible, setIsNavVisible] = useState(false);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
@@ -19,12 +20,15 @@ function App() {
     );
   };
 
+  const toggleNav = () => {
+    setIsNavVisible(!isNavVisible);
+  };
   return (
     <>
-      <Layout toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
+      <Layout toggleTheme={toggleTheme} isDarkMode={isDarkMode} toggleNav={toggleNav} />
       <div className="user-body">
-        <div className="left-nav">
-          <Navbar />
+      <div className={`left-nav ${isNavVisible ? "visible" : ""}`}>
+      <Navbar toggleTheme={toggleTheme} isDarkMode={isDarkMode} />
         </div>
         <div className="content">
           <Routes>

@@ -1,0 +1,55 @@
+{
+  "main": {
+    "list": [
+      {
+        "cl": {
+          "name": "Alice Smith",
+          "service": "Hair Cut",
+          "price": 150.25
+        }
+      },
+      {
+        "cl": {
+          "name": "Bob Johnson",
+          "service": "Shave",
+          "price": 45.75
+        }
+      },
+      {
+        "cl": {
+          "name": "Charlie Brown",
+          "service": "Hair Cut",
+          "price": 120.00
+        }
+      },
+      {
+        "cl": {
+          "name": "David Lee",
+          "service": "Hair Color",
+          "price": 200.50
+        }
+      },
+      {
+        "cl": {
+          "name": "Eva Green",
+          "service": "Facial",
+          "price": 80.90
+        }
+      },
+      {
+        "cl": {
+          "name": "Frank White",
+          "service": "Hair Cut",
+          "price": 180.60
+        }
+      },
+      {
+        "cl": {
+          "name": "Grace Black",
+          "service": "Manicure",
+          "price": 40.45
+        }
+      }
+    ]
+  }
+}

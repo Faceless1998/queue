@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.list .name {
+  font-family: "Manrope", serif;
+  font-size: 12px;
+}
+
+.list .service {
+  font-family: "Manrope", serif;
+  font-size: 12px;
+}
+
+.list .price {
+  font-family: "Manrope", serif;
+  font-size: 18px;
+}
+
+.list .price:before{
+    content:"$";
+    margin-right: 5px;
+}
+
+.list .cl{
+    width: 212px;
+    height: 116px;
+    background-color: #0A7055;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+}

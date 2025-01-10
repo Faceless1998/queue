@@ -1,0 +1,88 @@
+.portimage {
+  width: 512.87px;
+  height: 642px;
+  background-color: #b7b7df;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: 5px 5px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.portimage .contact {
+  height: 96.47px;
+  width: 512.87px;
+  border-radius: 0 0 50px 50px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 57px;
+}
+
+.portimage .title {
+  font-size: 30px;
+  font-family: "Outfit", serif;
+  font-weight: 500;
+}
+
+.portimage .social {
+  display: flex;
+  gap: 20px;
+}
+
+.portimage .social > * {
+  font-size: 38px;
+}
+
+.staff-member {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 96.47px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.staff-member .photo {
+  width: 298px;
+  height: 252px;
+}
+
+.staff-member .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.staff-member .staffname {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Outfit", serif;
+}
+
+.staff-member .username {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 200px;
+}
+
+.staff-member .line {
+  width: 150px;
+  height: 3px;
+  background-color: black;
+}
+
+.staff-member .position{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: "Outfit", serif;
+}
